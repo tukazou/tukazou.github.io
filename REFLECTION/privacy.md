@@ -103,4 +103,5 @@
 本ポリシーに関するご質問・ご意見は、以下までお問い合わせください。
 
 **開発者**：tukazou  
-**GitHubリポジトリ**：https://github.com/tukazou/REFLECTION
+**GitHubリポジトリ**：https://github.com/tukazou/REFLECTION  
+**プライバシーポリシーURL**：https://tukazou.github.io/REFLECTION/privacy
