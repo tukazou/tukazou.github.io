@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>利用規約 – UMirror</title>
+  <style>
+    :root {
+      --sage-50: #f4f7f4;
+      --sage-100: #e6ede6;
+      --sage-300: #a8c0a8;
+      --sage-500: #6a9a6a;
+      --sage-700: #3d6b3d;
+      --sage-900: #1e3a1e;
+      --neutral-100: #f5f5f0;
+      --neutral-600: #6b6b65;
+      --neutral-800: #2d2d2a;
+      --gold: #b89a4e;
+      --text-primary: #1e2a1e;
+      --text-secondary: #5a6b5a;
+      --divider: #dde8dd;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'YuGothic', sans-serif;
+      background-color: var(--sage-50);
+      color: var(--text-primary);
+      line-height: 1.8;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid var(--divider);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      background: var(--sage-700);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.5px;
+    }
+
+    .logo-text {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--sage-900);
+      letter-spacing: 0.02em;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .page-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--sage-900);
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--divider);
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--sage-700);
+      margin-bottom: 12px;
+      padding-left: 12px;
+      border-left: 3px solid var(--sage-500);
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+      line-height: 1.85;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 12px;
+      padding-left: 0;
+    }
+
+    ul li {
+      font-size: 14px;
+      color: var(--text-primary);
+      padding: 4px 0 4px 20px;
+      position: relative;
+      line-height: 1.75;
+    }
+
+    ul li::before {
+      content: '•';
+      position: absolute;
+      left: 6px;
+      color: var(--sage-500);
+    }
+
+    .highlight-box {
+      background: white;
+      border: 1px solid var(--divider);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0;
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    .disclaimer {
+      background: #fffbf0;
+      border: 1px solid #e8d9a0;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+    }
+
+    .disclaimer p {
+      font-size: 13px;
+      color: #7a6020;
+      margin-bottom: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--divider);
+      background: white;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+    }
+
+    a {
+      color: var(--sage-700);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 32px 16px 60px;
+      }
+      .page-title {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">U</div>
+  <span class="logo-text">UMirror</span>
+</header>
+
+<div class="container">
+
+  <h1 class="page-title">利用規約（エンドユーザー使用許諾契約）</h1>
+  <p class="meta">最終更新日：2026年5月7日　／　開発者：Cobalt Logic（tukazou）</p>
+
+  <div class="disclaimer">
+    <p>⚠️ 本アプリは自己理解・セルフリフレクションの支援を目的としたツールです。医療診断・治療・カウンセリングの代替ではありません。精神的な健康に関わる問題については、専門家にご相談ください。</p>
+  </div>
+
+  <section>
+    <h2>第1条　適用範囲</h2>
+    <p>本利用規約（以下「本規約」）は、Cobalt Logic（以下「開発者」）が提供するiOSアプリケーション「UMirror」（以下「本アプリ」）の利用に関する条件を定めるものです。本アプリをダウンロード・インストール・使用することにより、ユーザーは本規約に同意したものとみなします。</p>
+  </section>
+
+  <section>
+    <h2>第2条　ライセンスの付与</h2>
+    <p>開発者は、ユーザーに対して、本規約に従って本アプリを使用するための、非独占的・譲渡不可・取消可能なライセンスを付与します。ユーザーは以下を行ってはなりません。</p>
+    <ul>
+      <li>本アプリのリバースエンジニアリング、逆コンパイル、分解</li>
+      <li>本アプリの複製・配布・販売・再ライセンス</li>
+      <li>本アプリを使用した違法行為または第三者の権利を侵害する行為</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>第3条　サブスクリプション（Pro版）</h2>
+    <p>本アプリはフリーミアムモデルを採用しており、Pro版機能は有料サブスクリプションにより提供されます。</p>
+    <ul>
+      <li>月額プラン：¥980 / 月（自動更新）</li>
+      <li>年額プラン：¥7,800 / 年（自動更新）</li>
+    </ul>
+    <p>サブスクリプションは購入確認後、ご利用のApple IDに課金されます。現在の課金期間終了の24時間前までにキャンセルしない限り、自動的に更新されます。サブスクリプションの管理およびキャンセルは、iOSの設定アプリ > Apple ID > サブスクリプションから行えます。</p>
+    <p>本規約は、App Storeの<a href="https://www.apple.com/legal/internet-services/itunes/jp/terms.html" target="_blank">標準エンドユーザー使用許諾契約（EULA）</a>とともに適用されます。</p>
+  </section>
+
+  <section>
+    <h2>第4条　データとプライバシー</h2>
+    <p>本アプリはプライバシーを最優先に設計されています。</p>
+    <ul>
+      <li>ジャーナルデータはデフォルトでお使いの端末内にのみ保存されます</li>
+      <li>クラウドAI機能（Pro版・オプトイン）を有効にした場合のみ、分析に必要なジャーナル本文をOpenAIのサーバーに送信します</li>
+      <li>送信データはAIの学習には使用されません</li>
+      <li>開発者はユーザーのジャーナルデータに一切アクセスしません</li>
+    </ul>
+    <p>詳細は<a href="https://tukazou.github.io/REFLECTION/privacy" target="_blank">プライバシーポリシー</a>をご確認ください。</p>
+  </section>
+
+  <section>
+    <h2>第5条　医療行為の否定</h2>
+    <p>本アプリは認知行動療法（CBT）の考え方を参考にした自己理解・セルフリフレクション支援ツールです。以下を明示します。</p>
+    <ul>
+      <li>本アプリは医療機器ではありません</li>
+      <li>本アプリは医療診断・精神科的診断の代替ではありません</li>
+      <li>本アプリは治療・カウンセリング・医療行為の代替ではありません</li>
+      <li>本アプリのAI出力は仮説・可能性の提示であり、専門家の判断に代わるものではありません</li>
+    </ul>
+    <p>精神的な健康に関わる問題については、必ず専門家（精神科医・心療内科医・公認心理師等）にご相談ください。</p>
+  </section>
+
+  <section>
+    <h2>第6条　免責事項</h2>
+    <p>本アプリは「現状有姿」で提供されます。開発者は以下について一切の保証を行いません。</p>
+    <ul>
+      <li>本アプリの動作が中断しないこと、またはエラーがないこと</li>
+      <li>AI分析結果の正確性・完全性・適切性</li>
+      <li>本アプリの利用によって生じた損害（直接的・間接的を問わず）</li>
+    </ul>
+    <p>Apple IntelligenceまたはクラウドAIの仕様変更により、機能が変更・停止される場合があります。</p>
+  </section>
+
+  <section>
+    <h2>第7条　サービスの変更・終了</h2>
+    <p>開発者は、事前の通知なく本アプリの機能変更・停止・終了を行う場合があります。サブスクリプション期間中にサービスが終了した場合の返金については、App Storeのポリシーに従います。</p>
+  </section>
+
+  <section>
+    <h2>第8条　準拠法・管轄</h2>
+    <p>本規約は日本法に準拠し、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+  </section>
+
+  <section>
+    <h2>第9条　お問い合わせ</h2>
+    <p>本規約に関するお問い合わせは、App Store内のサポートリンクよりご連絡ください。</p>
+  </section>
+
+  <div class="highlight-box">
+    <p>© 2026 Cobalt Logic. All rights reserved.　UMirrorはCobalt Logicが開発・提供するアプリです。Apple、App Store、Apple IntelligenceはApple Inc.の商標です。</p>
+  </div>
+
+</div>
+
+<footer>
+  <p><a href="https://tukazou.github.io/REFLECTION/privacy">プライバシーポリシー</a>　｜　<a href="https://www.apple.com/legal/internet-services/itunes/jp/terms.html" target="_blank">Apple 標準EULA</a></p>
+  <p style="margin-top: 8px;">© 2026 Cobalt Logic</p>
+</footer>
+
+</body>
+</html>
